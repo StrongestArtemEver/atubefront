@@ -20,5 +20,19 @@ export default Vue.extend({
   padding: 0;
   margin: 0;
   font-family: "Monsterrat", sans-serif;
+  user-select: none;
+}
+
+div {
+  width: 75vw;
+  margin: 0 auto;
+}
+
+button {
+  background-color: black;
+  color: white;
+  border: 0;
+  letter-spacing: .8px;
+  cursor: pointer;
 }
 </style>
