@@ -7,7 +7,7 @@
 </template>
 
 <script lang="ts" setup>
-import CardList from './cards/CardList.vue';
+import CardList from './cards/MainCardList.vue';
 import CategoryList from './categories/CategoryList.vue';
 import MoreVideosBtn from './MoreVideosBtn.vue';
 

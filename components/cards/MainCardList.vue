@@ -22,8 +22,13 @@ import Card from './Card.vue';
 <style>
 .card-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(23em, 1fr));
     column-gap: 2rem;
     row-gap: 1rem;
+}
+
+.card-list .card {
+    height: 14em;
+    font-size: 1.3rem;
 }
 </style>
