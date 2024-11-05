@@ -15,7 +15,7 @@
 <style scoped>
 .card {
     cursor: pointer;
-    height: 15em;
+    height: 12rem;
     display: flex;
     flex-direction: column;
     text-decoration: none;
@@ -30,8 +30,7 @@
 }
 
 .card__description {
-    padding-top: 4px;
-    font-size: 1.3rem;
+    padding: 6px 4px 0 4px;
     width: 100%;
 }
 </style>
